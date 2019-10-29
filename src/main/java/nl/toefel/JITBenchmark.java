@@ -21,7 +21,7 @@ public class JITBenchmark {
     }
 
     @Benchmark
-    public long scalarReplacementNoAllocationBenchmark() {
+    public long scalarReplacement() {
         IdGenerator idGenerator = new IdGenerator();
         return idGenerator.getId();
     }
